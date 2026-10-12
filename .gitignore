@@ -1,0 +1,49 @@
+# Python environments
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials/
+token.json
+client_secret*.json
+
+# WhatsApp authentication and browser sessions
+whatsapp_session/
+session/
+.sessions/
+auth_info/
+Default/
+IndexedDB/
+Local Storage/
+Session Storage/
+Cookies
+Cookies-journal
+
+# Logs and databases
+*.log
+*.sqlite
+*.sqlite3
+*.db
+
+# Large generated files
+*.zip
+*.tar
+*.gz
+*.mp4
+*.onnx
+*.pt
+*.pth
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
